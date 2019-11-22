@@ -6,12 +6,12 @@ use pocketmine\event\entity\EntityShootBowEvent;
 use pocketmine\event\Listener;
 
 class EventListener implements Listener{
-        private $main;
 
-   public function __construct(main $main)
-        {
+   private $main;
+
+   public function __construct(main $main){
             $this->main = $main;
-        }
+   }
 
    public function onShoot(EntityShootBowEvent $event) {
 	$pworld=$event->getEntity()->getLevel();
