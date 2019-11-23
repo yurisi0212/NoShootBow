@@ -1,4 +1,8 @@
 # NoShootBow
-�R���t�B�O��WORLD�ɋ|�������Ăق����Ȃ����[���h���������Ă������� 
+コンフィグのWORLDに弓を撃ってほしくないワールド名を書いてください 
 
-world,world2,world3�̂悤��,�ŋ�؂�΂��̃��[���h���łĂȂ��Ȃ�܂�
+world,world2,world3のように,で区切ればそのワールドが打てなくなります 
+
+10分程度で作ったプラグインなのでconfigに world, とだけ打った場合などの 
+
+エラーの有無の確認を行えておりません
